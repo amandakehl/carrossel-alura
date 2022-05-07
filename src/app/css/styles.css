@@ -1,0 +1,13 @@
+/* .list-courses {} */
+
+.list-course {
+    list-style: none;
+}
+
+.link-course {
+    text-decoration: none;
+}
+
+/* .workload {
+
+} */
