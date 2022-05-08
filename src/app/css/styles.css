@@ -1,13 +1,85 @@
-/* .list-courses {} */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 97px;
+}
+
+.title-page {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--blue);
+    margin-left: 8px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.arrow-left {
+    margin: 10px;
+}
+
+.all-courses {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.list-all-courses {
+    display: flex;
+    padding: 0;
+}
+
+.course-one,
+.course-two,
+.course-three,
+.course-four,
+.course-five {
+    width: 315px;
+    height: 235px;
+    margin-right: 25px;
+    padding: 32px 20px 0 20px;
+    background-color: var(--white);
+    border: 1px solid #F2F7FE;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
+}
 
 .list-course {
     list-style: none;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.list-course::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid var(--gray-light);
+    margin-top: 2rem;
 }
 
 .link-course {
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--blue);
 }
 
-/* .workload {
+.workload-space {
+    display: flex;
+    align-items: center;
+}
 
-} */
+.workload {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gray);
+    margin-left: 15px;
+}

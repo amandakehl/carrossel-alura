@@ -1,12 +1,12 @@
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 122px;
 }
 
 html,
 body {
     height: 100%;
     margin: 0;
-    background-color: var(--gray);
+    background-color: var(--gray-thin);
 }
