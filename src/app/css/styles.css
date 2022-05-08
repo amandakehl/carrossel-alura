@@ -24,11 +24,7 @@ button {
     border: none;
 }
 
-.arrow-left {
-    margin: 10px;
-    cursor: pointer;
-}
-
+.arrow-left,
 .arrow-right {
     cursor: pointer;
 }
@@ -36,7 +32,6 @@ button {
 .all-courses {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
     width: 1200px;
     overflow: scroll;
     scroll-behavior: hidden;
@@ -48,6 +43,7 @@ button {
 
 .list-all-courses {
     display: flex;
+    padding: 0;
 }
 
 .course {
@@ -56,15 +52,14 @@ button {
     margin-right: 25px;
     padding: 32px 20px 0 20px;
     background-color: var(--white);
-    border: 1px solid #F2F7FE;
+    border: 1px solid var(--gray-thin);
     border-radius: 5px;
     box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
 }
 
 .list-course {
     list-style: none;
-    margin-top: 28px;
-    margin-bottom: 20px;
+    margin: 28px 0 20px 0;
 }
 
 .list-course::after {
@@ -93,4 +88,21 @@ button {
     font-weight: 700;
     color: var(--gray);
     margin-left: 15px;
+}
+
+@media screen and (max-width: 1224px) {
+    .header {
+        margin: 97px 50px 0 50px;
+    }
+
+    .all-courses {
+        max-width: 100%;
+        margin: 0 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .all-courses {
+        width: 300px;
+    }
 }
