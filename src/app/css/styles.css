@@ -35,11 +35,7 @@
     padding: 0;
 }
 
-.course-one,
-.course-two,
-.course-three,
-.course-four,
-.course-five {
+.course {
     width: 315px;
     height: 235px;
     margin-right: 25px;
