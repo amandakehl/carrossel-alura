@@ -24,7 +24,7 @@ e responsividade para adaptação do conteúdo em tela em diferentes formatos.
 
 ### Link da aplicação no Vercel
 
-https://carrossel-alura.vercel.app/ 
+https://carrossel-alura-amandakehl.vercel.app/
 
 ### Construído com 
 
