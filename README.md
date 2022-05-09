@@ -10,6 +10,7 @@ e responsividade para adaptação do conteúdo em tela em diferentes formatos.
 <!--ts-->
    * [Sobre o projeto](#sobre-o-projeto)
       * [Layout da aplicação](#layout-da-aplicação)
+      * [Aplicação no Vercel](#link-da-aplicação-no-vercel)
       * [Construído com](#construído-com)
       * [Instalação](#instalação)
    * [Autora](#autora)
@@ -18,8 +19,12 @@ e responsividade para adaptação do conteúdo em tela em diferentes formatos.
 ### Layout da aplicação
 
 <div align="left">
-  <img src="https://user-images.githubusercontent.com/73315527/167325203-898e7b9b-02b8-4924-bf69-80ebe0b4e415.gif"/>
+  <img src="https://user-images.githubusercontent.com/73315527/167339982-79ef3785-8e3a-4a1d-9a1e-a82fcf6984e2.gif"/>
 </div>  
+
+### Link da aplicação no Vercel
+
+https://carrossel-alura.vercel.app/ 
 
 ### Construído com 
 
@@ -31,10 +36,10 @@ HTML, CSS e JavaScript puros.
   # Clone este repositório
   $ git clone https://github.com/amandakehl/carrossel-alura
 
-  # Entre na pasta do projeto
-  $ cd carrossel-alura
+  # Abra a pasta do projeto no VSCode
+  $ code carrossel-alura
 
-  # Rode a aplicação através da extensão Live Server do VSCode ou similar
+  # Para rodar a aplicação localmente utilize a extensão Live Server do VSCode ou similar :)
 ```
 
 ## **Autora**
