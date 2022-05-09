@@ -1,9 +1,13 @@
-const courseNav = document.querySelector('.all-courses');
+const courseNav = document.querySelector('.all-courses')
 
 document.querySelector('#arrow-right').addEventListener('click', () => {
-    courseNav.scrollLeft += 150;
+    if (courseNav) {
+        courseNav.scrollLeft += 300;
+    }
 });
 
 document.querySelector('#arrow-left').addEventListener('click', () => {
-    courseNav.scrollLeft -= 150;
+    if (courseNav) {
+        courseNav.scrollLeft -= 300;
+    }
 });

@@ -32,7 +32,7 @@ button {
 .all-courses {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1320px;
     overflow: scroll;
     scroll-behavior: hidden;
 }
@@ -47,26 +47,27 @@ button {
 }
 
 .course {
+    list-style: none;
     width: 315px;
     height: 235px;
-    margin-right: 25px;
-    padding: 32px 20px 0 20px;
     background-color: var(--white);
     border: 1px solid var(--gray-thin);
     border-radius: 5px;
     box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
+    margin-right: 25px;
 }
 
 .list-course {
-    list-style: none;
-    margin: 28px 0 20px 0;
+    margin: 20px 20px 0 20px;
 }
 
-.list-course::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid var(--gray-light);
-    margin-top: 2rem;
+.icon-image {
+    padding: 28px 20px 0 20px;
+}
+
+.separator {
+    border-bottom: 1px solid var(--gray-thin);
+    padding-top: 30px;
 }
 
 .link-course {
@@ -74,12 +75,14 @@ button {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
+    line-height: 18px;
     color: var(--blue);
 }
 
 .workload-space {
     display: flex;
     align-items: center;
+    padding: 15px 20px 0 20px;
 }
 
 .workload {
@@ -87,7 +90,7 @@ button {
     font-size: 16px;
     font-weight: 700;
     color: var(--gray);
-    margin-left: 15px;
+    margin-left: 15px
 }
 
 @media screen and (max-width: 1224px) {
