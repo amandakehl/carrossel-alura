@@ -1,4 +1,4 @@
-const courseNav = document.querySelector('.all-courses')
+const courseNav = document.querySelector('.all-courses');
 
 document.querySelector('#arrow-right').addEventListener('click', () => {
     courseNav.scrollLeft += 150;
