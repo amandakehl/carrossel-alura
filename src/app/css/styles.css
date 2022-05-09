@@ -29,6 +29,11 @@ button {
     cursor: pointer;
 }
 
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 0.8;
+}
+
 .all-courses {
     display: flex;
     justify-content: space-between;
@@ -55,6 +60,10 @@ button {
     border-radius: 5px;
     box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
     margin-right: 25px;
+}
+
+.course:hover {
+    opacity: 0.8;
 }
 
 .list-course {
